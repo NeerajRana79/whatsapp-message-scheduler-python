@@ -63,7 +63,6 @@ From your WhatsApp, send:
 join <sandbox-code>
 
 to:
-
 +14155238886
 
 ⚠️ This step is required to send WhatsApp messages in trial mode.
