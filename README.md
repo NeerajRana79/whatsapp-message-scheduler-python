@@ -71,10 +71,15 @@ to:
 python main.py
 Sample Input
 Enter the recipient name: Neeraj
+
 Enter WhatsApp number with country code: +919XXXXXXXXX
+
 Enter the message: Hello, this message is scheduled!
+
 Enter date (YYYY-MM-DD): 2026-02-21
+
 Enter time (HH:MM): 22:07
+
 🔒 Security Best Practices Used
 
 ❌ No credentials stored in source code
