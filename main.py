@@ -17,7 +17,7 @@ client = Client(ACCOUNT_SID, AUTH_TOKEN)
 def send_whatsapp_message(recipient_number, message_body):
     try:
         message = client.messages.create(
-            from_="whatsapp:+14155238886",  # Twilio Sandbox Number
+            from_="whatsapp:+14874987486",  # Twilio Sandbox Number
             body=message_body,
             to=f"whatsapp:{recipient_number}"
         )
@@ -32,7 +32,7 @@ def send_whatsapp_message(recipient_number, message_body):
 # User Inputs
 name = input("Enter the recipient name: ")
 recipient_number = input(
-    "Enter WhatsApp number with country code (e.g. +919876543210): "
+    "Enter WhatsApp number with country code (e.g. +919876745610): "
 )
 message_body = input(f"Enter the message for {name}: ")
 
